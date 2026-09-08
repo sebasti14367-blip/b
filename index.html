@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WardenGarden</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="intro" aria-live="polite">
+      <div class="intro-box">
+        <div class="logo-mark">WG</div>
+        <h1>WardenGarden</h1>
+      </div>
+    </div>
+
+    <div class="background-blur"></div>
+    <div id="hojitas"></div>
+
+    <main class="window-shell">
+      <div class="app-brand" aria-label="WardenGarden logo y nombre">
+        <div class="brand-mark">WG</div>
+        <div class="brand-name">WardenGarden</div>
+      </div>
+
+      <div class="floating-box">
+        <div class="search-row">
+          <input type="text" id="searchInput" placeholder="Buscar planta o tipo..." />
+          <button class="search-btn">Buscar</button>
+        </div>
+
+        <div class="tab-buttons" role="tablist" aria-label="Menú principal">
+          <button class="tab-btn" data-panel="tipos">Tipos</button>
+          <button class="tab-btn" data-panel="ayuda">Ayuda</button>
+          <button class="tab-btn" data-panel="nosotros">Sobre nosotros</button>
+        </div>
+
+        <div id="homeView" class="home-view active">
+          <div class="home-header">
+            <span class="eyebrow">Explora</span>
+            <h2>Plantas para cuidar</h2>
+          </div>
+
+          <div class="gallery-search">
+            <input type="text" id="gallerySearch" placeholder="Busca una planta..." />
+          </div>
+
+          <div class="plant-slider" id="plantSlider">
+            <article class="plant-card" data-name="Cactus" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Cactus</strong></div>
+            </article>
+            <article class="plant-card" data-name="Flores" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Flores</strong></div>
+            </article>
+            <article class="plant-card" data-name="Árboles" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Árboles</strong></div>
+            </article>
+            <article class="plant-card" data-name="Hierbas" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Hierbas</strong></div>
+            </article>
+            <article class="plant-card" data-name="Suculentas" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Suculentas</strong></div>
+            </article>
+            <article class="plant-card" data-name="Arbustos" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Arbustos</strong></div>
+            </article>
+            <article class="plant-card" data-name="Lavanda" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Lavanda</strong></div>
+            </article>
+            <article class="plant-card" data-name="Tomates" style="background-image: linear-gradient(rgba(18, 46, 27, 0.15), rgba(18, 46, 27, 0.42)), url('https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80');">
+              <div class="plant-info"><strong>Tomates</strong></div>
+            </article>
+          </div>
+        </div>
+
+        <section class="panel" id="tipos">
+          <div class="panel-top">
+            <h3>Selecciona un tipo</h3>
+            <button class="panel-close" id="closeTypeSelector" type="button">Volver</button>
+          </div>
+
+          <div class="filter-box">
+            <input type="text" id="typeSearch" placeholder="Busca un tipo de planta" />
+          </div>
+
+          <div class="type-grid" id="typeGrid">
+            <button class="type-card active" data-type="arboles">
+              <span class="icon">🌳</span>
+              <strong>Árboles</strong>
+            </button>
+            <button class="type-card" data-type="flores">
+              <span class="icon">🌼</span>
+              <strong>Flores</strong>
+            </button>
+            <button class="type-card" data-type="cactus">
+              <span class="icon">🌵</span>
+              <strong>Cactus</strong>
+            </button>
+            <button class="type-card" data-type="arbustos">
+              <span class="icon">🌿</span>
+              <strong>Arbustos</strong>
+            </button>
+            <button class="type-card" data-type="suculentas">
+              <span class="icon">🪴</span>
+              <strong>Suculentas</strong>
+            </button>
+            <button class="type-card" data-type="hierbas">
+              <span class="icon">🌱</span>
+              <strong>Hierbas</strong>
+            </button>
+            <button class="type-card" data-type="lavanda">
+              <span class="icon">💜</span>
+              <strong>Lavanda</strong>
+            </button>
+            <button class="type-card" data-type="tomates">
+              <span class="icon">🍅</span>
+              <strong>Tomates</strong>
+            </button>
+            <button class="type-card" data-type="bonsai">
+              <span class="icon">🌿</span>
+              <strong>Bonsai</strong>
+            </button>
+            <button class="type-card" data-type="orquideas">
+              <span class="icon">🪷</span>
+              <strong>Orquídeas</strong>
+            </button>
+            <button class="type-card" data-type="helechos">
+              <span class="icon">🌱</span>
+              <strong>Helechos</strong>
+            </button>
+            <button class="type-card" data-type="medicinales">
+              <span class="icon">🌿</span>
+              <strong>Medicinales</strong>
+            </button>
+            <button class="type-card" data-type="frutales">
+              <span class="icon">🍊</span>
+              <strong>Frutales</strong>
+            </button>
+            <button class="type-card" data-type="bonsai">
+              <span class="icon">🌳</span>
+              <strong>Bonsai</strong>
+            </button>
+            <button class="type-card" data-type="hiedras">
+              <span class="icon">🌿</span>
+              <strong>Hiedras</strong>
+            </button>
+            <button class="type-card" data-type="jardineria">
+              <span class="icon">🪴</span>
+              <strong>Jardinería</strong>
+            </button>
+            <button class="type-card" data-type="accesorios">
+              <span class="icon">🧰</span>
+              <strong>Accesorios</strong>
+            </button>
+          </div>
+
+          <div class="detail-box" id="detailBox">
+            <h3 id="detailTitle">Árboles</h3>
+            <p id="detailText">Los árboles necesitan luz directa o indirecta suave, riego moderado y suelo con buen drenaje.</p>
+          </div>
+        </section>
+
+        <section class="panel" id="ayuda">
+          <div class="form-box">
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" type="email" placeholder="tuemail@gmail.com" />
+
+            <label for="comentario">Describe el error o problema</label>
+            <textarea id="comentario" rows="5" placeholder="Escribe aquí el problema que tuviste..."></textarea>
+
+            <button class="send-btn" type="button">Enviar</button>
+          </div>
+        </section>
+
+        <section class="panel" id="nosotros">
+          <div class="about-box">
+            <h3>¿Quiénes somos?</h3>
+            <p>
+              Somos WardenGarden, una aplicación creada para ayudar a las personas a cuidar sus plantas con
+              información clara, sencilla y útil para el día a día.
+            </p>
+            <p>
+              La creamos porque muchas personas quieren tener plantas en casa, pero no saben cómo cuidarlas bien.
+              Queremos que cada persona pueda entender su riego, luz y tipo de planta sin complicarse.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
