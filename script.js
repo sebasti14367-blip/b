@@ -3,7 +3,9 @@ const LEAF_INTERVAL_MS = 500;
 const MUSIC_PLAYLIST = [
   'pvzm1.mp3',
   'pvzm2.mp3',
-  'pvzm3.mp3'
+  'pvzm3.mp3',
+  'pvzm4.mp3',
+  'pvzm5.mp3',
 ];
 
 const backgroundMusic = document.getElementById('backgroundMusic');
