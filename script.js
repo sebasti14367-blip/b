@@ -5,7 +5,7 @@ const MUSIC_PLAYLIST = [
   'pvzm2.mp3',
   'pvzm3.mp3',
   'pvzm4.mp3',
-  'pvzm5.mp3',
+  'pvzm5.mp3'
 ];
 
 const backgroundMusic = document.getElementById('backgroundMusic');
