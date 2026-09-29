@@ -218,107 +218,198 @@ const PLANT_CATALOG = [
     info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Thola',
+    type: 'arbustos',
+    image: 'bth1/thola.jfif.jpeg',
+    info: 'Baccharis incarum / Parastrephia lepidophylla, arbusto nativo resinoso de porte bajo, muy adaptado a ambientes secos y elevados del altiplano.',
+    details: {
+      luz: 'Sol directo y exposición fuerte.',
+      riego: 'Muy bajo; solo en sequías prolongadas.',
+      suelo: 'Pedregoso, seco y bien drenado.',
+      especial: 'En El Alto, soporta frío y sequía, pero requiere protección frente a vientos fuertes.'
+    
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Chachacoma',
+    type: 'arbustos',
+    image: 'bth1/chachacoima.jfif.jpeg',
+    extraImage: 'bth1/chachacoima.jpg.jpeg',
+    info: 'Escallonia resinosa, arbusto tupido o árbol pequeño andino de hojas pequeñas, brillantes y resinosas.',
+    details: {
+      luz: 'Sol o semisombra brillante.',
+      riego: 'Moderado.',
+      suelo: 'Suelto, fértil y bien drenado.',
+      especial: 'En El Alto, mantener humedad moderada y proteger ejemplares jóvenes del viento.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Chilca',
+    type: 'arbustos',
+    image: 'bth1/chilca.jfif.jpeg',
+    info: 'Baccharis salicifolia, arbusto silvestre de crecimiento rápido y hojas alargadas y flexibles.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Moderado.',
+      suelo: 'Húmedo, pero bien drenado.',
+      especial: 'En El Alto, necesita más humedad que especies netamente secas y proteger ejemplares juveniles.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Distichia',
+    type: 'hierbas',
+    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80',
+    info: 'Distichia muscoides, planta altoandina que forma cojines compactos y resistentes en zonas húmedas y frías.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Alto; requiere humedad constante.',
+      suelo: 'Húmedo, orgánico y bien drenado.',
+      especial: 'En El Alto, es ideal para zonas húmedas y soporta muy bien las condiciones de altura.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Totora',
+    type: 'hierbas',
+    image: 'bth1/totora.jfif.jpeg',
+    info: 'Typha domingensis / Schoenoplectus californicus, planta acuática de tallos altos con gran capacidad de purificación natural del agua.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Muy alto; con disponibilidad permanente de agua.',
+      suelo: 'Húmedo, lodoso y rico en materia orgánica.',
+      especial: 'En El Alto, requiere controlar su expansión y mantener humedad constante en la zona.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Eucalipto',
+    type: 'arboles',
+    image: 'bth1/eucalipto.jpg.jpeg',
+    info: 'Eucalyptus globulus, árbol de gran porte y follaje aromático que suele distinguirse por su crecimiento vertical y vigoroso.',
+    details: {
+      luz: 'Sol fuerte y ventilación constante.',
+      riego: 'Moderado.',
+      suelo: 'Profundo, suelto y bien drenado.',
+      especial: 'En El Alto, proteger ejemplares jóvenes de heladas y dejar espacio suficiente para las raíces.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Álamo blanco',
+    type: 'arboles',
+    image: 'bth1/alamo_blanco.jpg.jpeg',
+    info: 'Populus alba, árbol de tronco claro y hojas con el envés plateado, muy utilizado en avenidas y parques.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Moderado a alto.',
+      suelo: 'Profundo, fértil y húmedo.',
+      especial: 'En El Alto, requiere agua durante la estación seca y espacio suficiente para el sistema radicular.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Sauce llorón',
+    type: 'arboles',
+    image: 'bth1/sauce_lloron.jpg.jpeg',
+    info: 'Salix babylonica / Salix humboldtiana, árbol de ramas pendulares y gran necesidad de humedad.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Alto.',
+      suelo: 'Profundo, fértil y húmedo.',
+      especial: 'En El Alto, debe plantarse en zonas con buen acceso al agua y alejado de tuberías o construcciones.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Olmo',
+    type: 'arboles',
+    image: 'bth1/olmo.jpg.jpeg',
+    info: 'Ulmus minor, árbol caducifolio de copa densa y hojas dentadas, ideal para plazas y avenidas.',
+    details: {
+      luz: 'Sol o semisombra brillante.',
+      riego: 'Moderado.',
+      suelo: 'Profundo, fértil y drenado.',
+      especial: 'En El Alto, vigilar plagas y reforzar riego durante periodos secos.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Olivo silvestre',
+    type: 'arboles',
+    image: 'bth1/olivo.jfif.jpeg',
+    info: 'Elaeagnus angustifolia, árbol pequeño o arbusto de hojas lanceoladas y flores pequeñas perfumadas.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Bajo a moderado.',
+      suelo: 'Suelto, arenoso y bien drenado.',
+      especial: 'En El Alto, es muy resistente a la sequía y al frío, apropiada para sitios difíciles.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Ligustro',
+    type: 'arbustos',
+    image: 'bth1/ligustro.JPG.jpeg',
+    info: 'Ligustrum vulgare, arbusto perenne tupido muy usado como cerca viva y para dar estructura a jardines.',
+    details: {
+      luz: 'Sol o semisombra.',
+      riego: 'Moderado.',
+      suelo: 'Fértil, suelto y drenado.',
+      especial: 'En El Alto, requiere poda regular y control de crecimiento para mantener su forma.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Geranios',
+    type: 'flores',
+    image: 'bth1/geranio.jfif.jpeg',
+    info: 'Pelargonium spp., plantas ornamentales de flores vistosas en rojos, rosas y blancos, ideales para patios y macetas.',
+    details: {
+      luz: 'Sol o semisombra brillante.',
+      riego: 'Moderado.',
+      suelo: 'Ligero, fértil y muy drenado.',
+      especial: 'En El Alto, protegerlos durante noches muy frías y evitar exceso de humedad.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Pensamientos',
+    type: 'flores',
+    image: 'https://blog.gustu.bo/wp-content/uploads/2018/07/KISWARA-2-300x375.jpg',
+    info: 'Viola × wittrockiana, flor ornamental de bajo porte con colores combinados y gran resistencia al frío.',
+    details: {
+      luz: 'Sol suave o semisombra.',
+      riego: 'Moderado.',
+      suelo: 'Fértil, húmedo y bien drenado.',
+      especial: 'En El Alto, mantener humedad moderada y proteger durante heladas extremas.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Margaritas',
+    type: 'flores',
+    image: 'https://blog.gustu.bo/wp-content/uploads/2018/07/KISWARA-2-300x375.jpg',
+    info: 'Bellis perennis / Leucanthemum vulgare, herbáceas de flores blancas y centro amarillo muy comunes en jardines urbanos.',
+    details: {
+      luz: 'Sol o semisombra.',
+      riego: 'Moderado.',
+      suelo: 'Fértil, suelto y bien drenado.',
+      especial: 'En El Alto, proteger plantas jóvenes y evitar encharcamientos.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
+    name: 'Caléndula',
+    type: 'flores',
+    image: 'https://blog.gustu.bo/wp-content/uploads/2018/07/KISWARA-2-300x375.jpg',
+    info: 'Calendula officinalis, planta herbácea de flores amarillas y naranjas muy útil tanto decorativamente como medicinalmente.',
+    details: {
+      luz: 'Sol directo.',
+      riego: 'Moderado.',
+      suelo: 'Fértil, ligero y bien drenado.',
+      especial: 'En El Alto, retirar flores marchitas y mantener un riego moderado para sostener la floración.'
+    }
   },
   {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
-  },
-  {
-    name: 'Tomates',
-    type: 'tomates',
-    image: 'https://images.unsplash.com/photo-1518843875459-f738682238a6?auto=format&fit=crop&w=900&q=80',
-    info: 'Los tomates requieren mucha luz, fertilizante regular y riego constante para producir frutos sanos, sabrosos y abundantes.'
-  },
+    name: 'Alhelí',
+    type: 'flores',
+    image: 'https://blog.gustu.bo/wp-content/uploads/2018/07/KISWARA-2-300x375.jpg',
+    info: 'Matthiola incana, planta de tallos leñosos en la base y flores con aroma intenso en tonos violetas, blancas o rosas.',
+    details: {
+      luz: 'Sol o semisombra.',
+      riego: 'Moderado.',
+      suelo: 'Fértil, ligero y drenado.',
+      especial: 'En El Alto, ubicarla en lugares protegidos del viento y de heladas intensas.'
+    }
+  }
 ];
 
 let activePlantType = 'all';
