@@ -220,7 +220,7 @@ const PLANT_CATALOG = [
   {
     name: 'Thola',
     type: 'arbustos',
-    image: 'bth1/thola.jfif.jpeg',
+    image: 'thola.jfif.jpeg',
     info: 'Baccharis incarum / Parastrephia lepidophylla, arbusto nativo resinoso de porte bajo, muy adaptado a ambientes secos y elevados del altiplano.',
     details: {
       luz: 'Sol directo y exposición fuerte.',
@@ -232,7 +232,7 @@ const PLANT_CATALOG = [
   {
     name: 'Chachacoma',
     type: 'arbustos',
-    image: 'bth1/chachacoima.jfif.jpeg',
+    image: 'chachacoima.jfif.jpeg',
     extraImage: 'bth1/chachacoima.jpg.jpeg',
     info: 'Escallonia resinosa, arbusto tupido o árbol pequeño andino de hojas pequeñas, brillantes y resinosas.',
     details: {
@@ -245,7 +245,7 @@ const PLANT_CATALOG = [
   {
     name: 'Chilca',
     type: 'arbustos',
-    image: 'bth1/chilca.jfif.jpeg',
+    image: 'chilca.jfif.jpeg',
     info: 'Baccharis salicifolia, arbusto silvestre de crecimiento rápido y hojas alargadas y flexibles.',
     details: {
       luz: 'Sol directo.',
@@ -269,7 +269,7 @@ const PLANT_CATALOG = [
   {
     name: 'Totora',
     type: 'hierbas',
-    image: 'bth1/totora.jfif.jpeg',
+    image: 'totora.jfif.jpeg',
     info: 'Typha domingensis / Schoenoplectus californicus, planta acuática de tallos altos con gran capacidad de purificación natural del agua.',
     details: {
       luz: 'Sol directo.',
@@ -281,7 +281,7 @@ const PLANT_CATALOG = [
   {
     name: 'Eucalipto',
     type: 'arboles',
-    image: 'bth1/eucalipto.jpg.jpeg',
+    image: 'eucalipto.jpg.jpeg',
     info: 'Eucalyptus globulus, árbol de gran porte y follaje aromático que suele distinguirse por su crecimiento vertical y vigoroso.',
     details: {
       luz: 'Sol fuerte y ventilación constante.',
@@ -293,7 +293,7 @@ const PLANT_CATALOG = [
   {
     name: 'Álamo blanco',
     type: 'arboles',
-    image: 'bth1/alamo_blanco.jpg.jpeg',
+    image: 'alamo_blanco.jpg.jpeg',
     info: 'Populus alba, árbol de tronco claro y hojas con el envés plateado, muy utilizado en avenidas y parques.',
     details: {
       luz: 'Sol directo.',
@@ -305,7 +305,7 @@ const PLANT_CATALOG = [
   {
     name: 'Sauce llorón',
     type: 'arboles',
-    image: 'bth1/sauce_lloron.jpg.jpeg',
+    image: 'sauce_lloron.jpg.jpeg',
     info: 'Salix babylonica / Salix humboldtiana, árbol de ramas pendulares y gran necesidad de humedad.',
     details: {
       luz: 'Sol directo.',
@@ -317,7 +317,7 @@ const PLANT_CATALOG = [
   {
     name: 'Olmo',
     type: 'arboles',
-    image: 'bth1/olmo.jpg.jpeg',
+    image: 'olmo.jpg.jpeg',
     info: 'Ulmus minor, árbol caducifolio de copa densa y hojas dentadas, ideal para plazas y avenidas.',
     details: {
       luz: 'Sol o semisombra brillante.',
@@ -329,7 +329,7 @@ const PLANT_CATALOG = [
   {
     name: 'Olivo silvestre',
     type: 'arboles',
-    image: 'bth1/olivo.jfif.jpeg',
+    image: 'olivo.jfif.jpeg',
     info: 'Elaeagnus angustifolia, árbol pequeño o arbusto de hojas lanceoladas y flores pequeñas perfumadas.',
     details: {
       luz: 'Sol directo.',
@@ -341,7 +341,7 @@ const PLANT_CATALOG = [
   {
     name: 'Ligustro',
     type: 'arbustos',
-    image: 'bth1/ligustro.JPG.jpeg',
+    image: 'ligustro.JPG.jpeg',
     info: 'Ligustrum vulgare, arbusto perenne tupido muy usado como cerca viva y para dar estructura a jardines.',
     details: {
       luz: 'Sol o semisombra.',
@@ -353,7 +353,7 @@ const PLANT_CATALOG = [
   {
     name: 'Geranios',
     type: 'flores',
-    image: 'bth1/geranio.jfif.jpeg',
+    image: 'geranio.jfif.jpeg',
     info: 'Pelargonium spp., plantas ornamentales de flores vistosas en rojos, rosas y blancos, ideales para patios y macetas.',
     details: {
       luz: 'Sol o semisombra brillante.',
