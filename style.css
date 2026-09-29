@@ -131,7 +131,9 @@ button, input, textarea {
   top: 50%;
   left: 18px;
   transform: translateY(-50%) scale(0.96);
-  width: min(380px, calc(100vw - 32px));
+  width: min(460px, calc(100vw - 32px));
+  max-height: min(82vh, 760px);
+  overflow-y: auto;
   background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(237,248,239,0.96));
   border: 1px solid rgba(42, 63, 48, 0.18);
   border-radius: 26px;
@@ -180,17 +182,48 @@ button, input, textarea {
 
 .modal-plant-image {
   width: 100%;
-  height: 220px;
+  height: 240px;
   object-fit: cover;
   border-radius: 18px;
   display: block;
   border: 1px solid rgba(42, 63, 48, 0.08);
 }
 
+.modal-plant-content {
+  display: grid;
+  gap: 10px;
+}
+
 .modal-plant-content h3 {
-  margin: 0 0 8px;
+  margin: 0;
   font-size: 1.7rem;
   color: var(--green-800);
+}
+
+.modal-plant-details {
+  display: grid;
+  gap: 8px;
+}
+
+.plant-detail-item {
+  display: grid;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(234, 246, 236, 0.8);
+  border: 1px solid rgba(42, 63, 48, 0.12);
+}
+
+.plant-detail-label {
+  font-weight: 800;
+  color: var(--green-800);
+  font-size: 0.95rem;
+}
+
+.plant-detail-value {
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 0.98rem;
 }
 
 .modal-plant-info {
